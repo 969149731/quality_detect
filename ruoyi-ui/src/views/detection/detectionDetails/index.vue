@@ -1,5 +1,6 @@
 <template>
   <div class="app-container">
+<!--    试试git-->
     <el-form :model="queryParams" ref="queryForm" size="small" :inline="true" v-show="showSearch" label-width="72px">
       <el-form-item label="样品编号" prop="sampleCode">
         <el-input
